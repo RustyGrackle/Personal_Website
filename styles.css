@@ -1,0 +1,214 @@
+body {
+    margin:0;
+    text-align: center; /* align everything that not have width set */
+    font-family: 'Merriweather', serif; /*By default we have serif */ /* we are embedding these fonts from links */
+    /* Sans serif has arial font by default*/
+    background-color: #1A120B;
+}
+
+hr {
+    border: dotted #B25068 8px;
+    border-bottom: none;
+    width: 6%;
+    margin: 100px auto;
+}
+
+h1 {
+    font-size: 5.625rem; /* 100 % equals to 16 px equals to 1em equal to 1rem */
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #E5E5CB;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;/* 40px */
+    color: #E5E5CB;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #D5CEA3;
+}
+a{
+    color: #D5CEA3;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: #E7AB79;
+}
+p{
+    color: #D5CEA3;
+    line-height: 2;
+
+}
+.about-me{
+    width: 30%;
+    margin: auto;
+}
+#cod{
+    padding-left: 240px;
+}
+#intro {
+    color: #3C2A21;
+}
+#myjob {
+    color: #3C2A21;
+}
+/* Containers */
+.topContainer {
+    background-color: #D5CEA3;
+    position: relative;
+    padding-top: 100px;
+
+}
+.middle-container{
+    margin: 100px 0;
+}
+.bottom-container{
+    background-color: #D5CEA3;
+    padding: 50px 0 20px;
+}
+/* Rows */
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto; /* to make it at centre after using width */
+    text-align: left;
+}
+
+.hobby-row {
+    width: 50%;
+    margin: 100px auto 100px auto; /* to make it at centre after using width */
+    text-align: left;
+}
+/* Clouds */
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position:absolute;
+    left: 250px;
+    bottom: 300px;
+}
+/* Images */
+#sidimg {
+
+}
+.Coding {
+    width: 30% ;
+    float: left;
+    margin-right: 30px;
+}
+.Finance {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+.Books {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+.Songs {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.link {
+    color: #3C2A21;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.btn {
+  background: #ebda78;
+  background-image: -webkit-linear-gradient(top, #ebda78, #261b12);
+  background-image: -moz-linear-gradient(top, #ebda78, #261b12);
+  background-image: -ms-linear-gradient(top, #ebda78, #261b12);
+  background-image: -o-linear-gradient(top, #ebda78, #261b12);
+  background-image: linear-gradient(to bottom, #ebda78, #261b12);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3C2A21;
+  background-image: -webkit-linear-gradient(top, #3C2A21, #E5E5CB);
+  background-image: -moz-linear-gradient(top, #3C2A21, #E5E5CB);
+  background-image: -ms-linear-gradient(top, #3C2A21, #E5E5CB);
+  background-image: -o-linear-gradient(top, #3C2A21, #E5E5CB);
+  background-image: linear-gradient(to bottom, #3C2A21, #E5E5CB);
+  text-decoration: none;
+}
+
+.Copyright{
+    color: #1A120B;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+/* Key Frames*/
+/*
+@-webkit-keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@-moz-keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+*/
+/* ANIMATIONS */
+/*
+.x1 {
+	-webkit-animation: animateCloud 35s linear infinite;
+	-moz-animation: animateCloud 35s linear infinite;
+	animation: animateCloud 35s linear infinite;
+
+	-webkit-transform: scale(0.65);
+	-moz-transform: scale(0.65);
+	transform: scale(0.65);
+}
+
+.x2 {
+	-webkit-animation: animateCloud 20s linear infinite;
+	-moz-animation: animateCloud 20s linear infinite;
+	animation: animateCloud 20s linear infinite;
+
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+} */
