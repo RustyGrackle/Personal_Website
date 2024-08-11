@@ -125,6 +125,10 @@ p{
     color: #3C2A21;
 }
 
+.link-inverse {
+    color: #8a7404;
+}
+
 .contact-message {
     width: 40%;
     margin: 40px auto 60px;
